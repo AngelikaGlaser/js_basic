@@ -14,3 +14,10 @@ console.log("Hello, world!")
 console.log("Hello, world!")
 console.log("Hello, world!")
 */
+
+let astmeAlus = 2
+let astendaja = 4
+
+let tulemus = Math.pow(astmeAlus,astendaja)
+
+console.log(tulemus)
