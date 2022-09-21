@@ -41,9 +41,10 @@ let trahv = (tegelikKiirus - lubatudkiirus)*3
 let tegelikTrahv= Math.min(trahv, 190)
 console.log(nimi + ', kiiruse ületamise eest on Teie trahv ' + tegelikTrahv + ' eurot.')
  */
-
+/* AINEPUNKTIDE ÜLESANNE
 let ainepunktid = 7
 let nadalad = 16
 let tunnid = ainepunktid * 26
 let nadalasToimetan = Math.round((tunnid / nadalad))
 console.log(nadalasToimetan)
+ */
