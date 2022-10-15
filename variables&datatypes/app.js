@@ -8,7 +8,7 @@ while(kord <= MituKorda){
 }
 */
 //3.2 Janesevanemate mure
-let ring = 1
+/*let ring = 1
 let RingideArv =Number(prompt('Sisesta ringide arv: '))
 let porgandidKokku = 0
 
@@ -22,3 +22,12 @@ while(ring <= RingideArv){
     ring ++
 }
 console.log((`Kokku sai ${porgandidKokku} porgandit`))
+
+ */
+//3.3 Taringumang
+let taringuteArv = Number(prompt('Taringute arv: '))
+
+for(let kord = 1; kord <= taringuteArv; kord++){
+    let taring = Math.ceil(Math.random()) * 6
+    console.log(taring)
+}
