@@ -48,3 +48,17 @@ let tunnid = ainepunktid * 26
 let nadalasToimetan = Math.round((tunnid / nadalad))
 console.log(nadalasToimetan)
  */
+/*
+TRANSPORDI ORGANISEERIMINE
+let inimesed = 100
+let kohtiBussis = 40
+
+let bussidTaidetud = Math.floor(inimesed / kohtiBussis)
+let mahaJaanud = inimesed % kohtiBussis
+
+console.log(inimesed + 'inimeste soidutamiseks laheb vaja ' + bussidTaidetud + 'bussi')
+if (mahaJaanud != 0) {
+    console.log('ja ' + mahaJaanud + 'inimest on jaanud maha')
+}
+*/
+
