@@ -61,4 +61,12 @@ if (mahaJaanud != 0) {
     console.log('ja ' + mahaJaanud + 'inimest on jaanud maha')
 }
 */
-
+/*
+Jaatumise ulesanne
+let temp = Number(prompt('Sisesta ohutemperatuur:'))
+if (temp > 4.0){
+    console.log('Ei ole jaatumise ohtu')
+} else {
+    console.log('On jaatumise oht')
+}
+*/
