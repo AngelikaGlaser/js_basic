@@ -24,6 +24,7 @@ while(ring <= RingideArv){
 console.log((`Kokku sai ${porgandidKokku} porgandit`))
 
  */
+/*
 //3.3 Taringumang
 let taringuteArv = Number(prompt('Taringute arv: '))
 
@@ -31,3 +32,16 @@ for(let kord = 1; kord <= taringuteArv; kord++){
     let taring = Math.ceil(Math.random()) * 6
     console.log(taring)
 }
+ */
+//Ounte jagamine
+let poialpoisid = Number(prompt("Mitu Poialpoissi on? "))
+let poialpoiss = 1
+let LumivalgukeseOunad = 14
+
+while (poialpoiss <= poialpoisid){
+    let ounad = Math.ceil(Math.random()) * 2
+    console.log(ounad)
+    LumivalgukeseOunad -= ounad
+    poialpoiss++
+}
+console.log(`Lumivalgekesele jai: ${LumivalgukeseOunad}`)
