@@ -70,3 +70,52 @@ if (temp > 4.0){
     console.log('On jaatumise oht')
 }
 */
+/*
+Pulss
+let sugu = prompt('Sisesta oma Sugu: ')
+let vanus = Number(prompt('Sisesta oma vanus: '))
+let treeninguTuup = Number(prompt("Sisesta treeningutuup: "))
+let pulsisagedus;
+
+// loogilised operaatorid && - and, || - or , ! - not
+if (sugu == 'M' || sugu == 'm' ) {
+    pulsisagedus = 220 - vanus
+}  else if (sugu == 'n'||sugu == 'N'){
+    pulsisagedus = 206 - 0.88 * vanus
+}
+
+let minPulsisagedus
+let maxPulsisagedus
+if (treeninguTuup == 1 ){
+    minPulsisagedus = 0.5 * pulsisagedus
+    maxPulsisagedus = 1.7 * pulsisagedus
+} else if (treeninguTuup == 2){
+    minPulsisagedus = 0.7 * pulsisagedus
+    maxPulsisagedus = 0.8 * pulsisagedus
+} else if (treeninguTuup == 3){
+    minPulsisagedus = 0.8 * pulsisagedus
+    maxPulsisagedus = 0.87 * pulsisagedus
+}
+console.log(`Pulsisagedus peab olema vahemikus ${Math.round(minPulsisagedus)} kuni ${Math.round(maxPulsisagedus)}`)
+ */
+2.4 ISTEKOHT
+let valik = prompt('kas soovid istekohta valida ise "ise" voi loosida "loos"')
+let koht
+
+if (valik == "ise"){
+    let kohavalik = prompt('Kas soovite istuda akna aares "aken" voi mujal "muu"')
+    console.log('Valisite ise.')
+    if (kohavalik == 'aken') {
+        koht = 'aknakoht'
+    } else if (kohavalik == 'muu'){
+        koht = 'vahekaigukoht'}
+} else if (valik == 'loos'){
+    console.log('Istekoht loositi.')
+    let juhuarv = Math.ceil(Math.random() * 3)
+    if (juhuarv == 1) {
+        koht = "Aknakoht"
+    } else {
+        koht = "Vahekaigukoht"
+    }
+}
+console.log(koht)
