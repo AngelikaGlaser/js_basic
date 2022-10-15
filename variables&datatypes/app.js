@@ -98,6 +98,7 @@ if (treeninguTuup == 1 ){
 }
 console.log(`Pulsisagedus peab olema vahemikus ${Math.round(minPulsisagedus)} kuni ${Math.round(maxPulsisagedus)}`)
  */
+/*
 2.4 ISTEKOHT
 let valik = prompt('kas soovid istekohta valida ise "ise" voi loosida "loos"')
 let koht
@@ -119,3 +120,14 @@ if (valik == "ise"){
     }
 }
 console.log(koht)
+ */
+2.5 Spamm
+let kirjasuurus = parseFloat(prompt("Sisesta kirja suurus (mb): "))
+let kirjaPealkiri = prompt("Sisesta kirja pealkiri (kui pealkirja ei ole siis ara sisesta midagi): ")
+let Fail = prompt('Kas kirjaga oli kaasas fail? (ei/jah): ')
+
+if (kirjaPealkiri == "" || (Fail == 'jah' && kirjasuurus > 1)){
+    console.log('Kiri on Spamm.')
+} else {
+    console.log('Kiri ei ole Spamm')
+}
